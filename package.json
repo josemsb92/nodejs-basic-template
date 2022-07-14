@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-basic-template",
+  "version": "1.0.0",
+  "description": "A basic node API REST structure with express and use of middlewares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemsb92/nodejs-basic-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemsb92/nodejs-basic-template/issues"
+  },
+  "homepage": "https://github.com/josemsb92/nodejs-basic-template#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
