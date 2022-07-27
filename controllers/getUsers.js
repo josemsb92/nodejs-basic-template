@@ -1,8 +1,8 @@
 const userManager = require("../managers/userManager");
 
 async function getAllUsers(req, res) {
-  const users = await userManager.findAll();
-  res.status(200).json(users).end();
+  const allUsers = await userManager.findAll();
+  res.status(200).json(allUsers).end();
 }
 
 module.exports = getAllUsers;
