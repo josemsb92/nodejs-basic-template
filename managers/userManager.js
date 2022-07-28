@@ -16,6 +16,10 @@ class userManager {
     const newUser = await new User({ username: username, password: password });
     return newUser;
   }
+  static async findByUsername(username) {
+    const user = await User.findOne({ username: username });
+    return user;
+  }
   static async removeUser(id) {
     await User.deleteOne(id);
   }
