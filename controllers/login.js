@@ -12,7 +12,7 @@ async function login(req, res) {
     if (!verification) {
       res.status(401).json({ error: "Invalid password or username" });
     }
-    res.status(200).json(`You are logged in as ${username}`);
+    res.status(200).json(user);
   } catch (error) {
     console.log(error);
   }
